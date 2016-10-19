@@ -39,19 +39,21 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.작업폴더열기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.프로젝트열기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.프로젝트저장CtrlSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblHome = new System.Windows.Forms.Label();
-            this.프로젝트열기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pnlMonitor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picMonitor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSubMonitor)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btCapture
             // 
-            this.btCapture.Location = new System.Drawing.Point(314, 456);
+            this.btCapture.Location = new System.Drawing.Point(4, 3);
             this.btCapture.Name = "btCapture";
             this.btCapture.Size = new System.Drawing.Size(94, 23);
             this.btCapture.TabIndex = 0;
@@ -61,12 +63,17 @@
             // 
             // pnlMonitor
             // 
+            this.pnlMonitor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlMonitor.AutoScroll = true;
+            this.pnlMonitor.AutoSize = true;
             this.pnlMonitor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlMonitor.Controls.Add(this.picMonitor);
-            this.pnlMonitor.Location = new System.Drawing.Point(314, 27);
+            this.pnlMonitor.Location = new System.Drawing.Point(311, 27);
+            this.pnlMonitor.Margin = new System.Windows.Forms.Padding(0);
             this.pnlMonitor.Name = "pnlMonitor";
-            this.pnlMonitor.Size = new System.Drawing.Size(640, 423);
+            this.pnlMonitor.Size = new System.Drawing.Size(643, 437);
             this.pnlMonitor.TabIndex = 2;
             // 
             // picMonitor
@@ -85,40 +92,46 @@
             // 
             // picSubMonitor
             // 
+            this.picSubMonitor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.picSubMonitor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picSubMonitor.Location = new System.Drawing.Point(854, 467);
+            this.picSubMonitor.Location = new System.Drawing.Point(538, 6);
             this.picSubMonitor.Name = "picSubMonitor";
             this.picSubMonitor.Size = new System.Drawing.Size(100, 103);
             this.picSubMonitor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSubMonitor.TabIndex = 3;
             this.picSubMonitor.TabStop = false;
+            this.picSubMonitor.Click += new System.EventHandler(this.picSubMonitor_Click);
             // 
             // x
             // 
             this.x.AutoSize = true;
-            this.x.Location = new System.Drawing.Point(777, 467);
+            this.x.Location = new System.Drawing.Point(398, 8);
             this.x.Name = "x";
             this.x.Size = new System.Drawing.Size(21, 12);
             this.x.TabIndex = 4;
             this.x.Text = "X :";
+            this.x.Click += new System.EventHandler(this.x_Click);
             // 
             // y
             // 
             this.y.AutoSize = true;
-            this.y.Location = new System.Drawing.Point(777, 490);
+            this.y.Location = new System.Drawing.Point(398, 31);
             this.y.Name = "y";
             this.y.Size = new System.Drawing.Size(21, 12);
             this.y.TabIndex = 5;
             this.y.Text = "Y :";
+            this.y.Click += new System.EventHandler(this.y_Click);
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel1.Controls.Add(this.propertyGrid);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(15, 27);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 27);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(293, 543);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(296, 560);
             this.flowLayoutPanel1.TabIndex = 6;
             // 
             // propertyGrid
@@ -156,6 +169,15 @@
             this.작업폴더열기ToolStripMenuItem.Text = "작업폴더 열기";
             this.작업폴더열기ToolStripMenuItem.Click += new System.EventHandler(this.작업폴더열기ToolStripMenuItem_Click);
             // 
+            // 프로젝트열기ToolStripMenuItem
+            // 
+            this.프로젝트열기ToolStripMenuItem.Name = "프로젝트열기ToolStripMenuItem";
+            this.프로젝트열기ToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + O";
+            this.프로젝트열기ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.프로젝트열기ToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.프로젝트열기ToolStripMenuItem.Text = "프로젝트 열기";
+            this.프로젝트열기ToolStripMenuItem.Click += new System.EventHandler(this.프로젝트열기ToolStripMenuItem_Click);
+            // 
             // 프로젝트저장CtrlSToolStripMenuItem
             // 
             this.프로젝트저장CtrlSToolStripMenuItem.Name = "프로젝트저장CtrlSToolStripMenuItem";
@@ -168,37 +190,41 @@
             // lblHome
             // 
             this.lblHome.AutoSize = true;
-            this.lblHome.Location = new System.Drawing.Point(414, 461);
+            this.lblHome.Location = new System.Drawing.Point(3, 31);
             this.lblHome.Name = "lblHome";
             this.lblHome.Size = new System.Drawing.Size(77, 12);
             this.lblHome.TabIndex = 8;
             this.lblHome.Text = "작업디렉토리";
             // 
-            // 프로젝트열기ToolStripMenuItem
+            // panel1
             // 
-            this.프로젝트열기ToolStripMenuItem.Name = "프로젝트열기ToolStripMenuItem";
-            this.프로젝트열기ToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + O";
-            this.프로젝트열기ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.프로젝트열기ToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
-            this.프로젝트열기ToolStripMenuItem.Text = "프로젝트 열기";
-            this.프로젝트열기ToolStripMenuItem.Click += new System.EventHandler(this.프로젝트열기ToolStripMenuItem_Click);
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btCapture);
+            this.panel1.Controls.Add(this.y);
+            this.panel1.Controls.Add(this.picSubMonitor);
+            this.panel1.Controls.Add(this.lblHome);
+            this.panel1.Controls.Add(this.x);
+            this.panel1.Location = new System.Drawing.Point(311, 467);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(643, 120);
+            this.panel1.TabIndex = 9;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(963, 596);
-            this.Controls.Add(this.lblHome);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.y);
-            this.Controls.Add(this.x);
-            this.Controls.Add(this.picSubMonitor);
             this.Controls.Add(this.pnlMonitor);
-            this.Controls.Add(this.btCapture);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
             this.Text = "AutoMaker v0.1b";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.pnlMonitor.ResumeLayout(false);
             this.pnlMonitor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picMonitor)).EndInit();
@@ -206,6 +232,8 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,6 +255,7 @@
         private System.Windows.Forms.Label lblHome;
         private System.Windows.Forms.ToolStripMenuItem 프로젝트저장CtrlSToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 프로젝트열기ToolStripMenuItem;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

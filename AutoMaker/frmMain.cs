@@ -186,5 +186,30 @@ namespace AutoMaker
             propertyGrid.SelectedObject = projectProperties;
 
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picSubMonitor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void y_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void x_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
