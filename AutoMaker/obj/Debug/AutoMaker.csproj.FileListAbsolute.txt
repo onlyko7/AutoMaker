@@ -1,0 +1,13 @@
+C:\Users\Youngs\AppData\Local\Temporary Projects\AutoMaker\bin\Debug\AutoMaker.exe.config
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\bin\Debug\AutoMaker.exe.config
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\bin\Debug\AutoMaker.exe
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\bin\Debug\AutoMaker.pdb
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Debug\AutoMaker.csprojResolveAssemblyReference.cache
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Debug\AutoMaker.frmMain.resources
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Debug\AutoMaker.Properties.Resources.resources
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Debug\AutoMaker.csproj.GenerateResource.Cache
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Debug\AutoMaker.exe
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Debug\AutoMaker.pdb
+C:\Users\Youngs\Documents\GitHub\AutoMaker\AutoMaker\bin\Debug\AutoMaker.exe.config
+C:\Users\Youngs\Documents\GitHub\AutoMaker\AutoMaker\obj\Debug\AutoMaker.exe
+C:\Users\Youngs\Documents\GitHub\AutoMaker\AutoMaker\obj\Debug\AutoMaker.pdb

@@ -1,0 +1,8 @@
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\bin\Release\AutoMaker.exe.config
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\bin\Release\AutoMaker.exe
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\bin\Release\AutoMaker.pdb
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Release\AutoMaker.frmMain.resources
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Release\AutoMaker.Properties.Resources.resources
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Release\AutoMaker.csproj.GenerateResource.Cache
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Release\AutoMaker.exe
+C:\Users\Youngs\Documents\Visual Studio 2015\Projects\AutoMaker\AutoMaker\obj\Release\AutoMaker.pdb
